@@ -14,6 +14,8 @@ app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
 
 app.use('/', homeRoutes)
+app.use('/events', eventRoutes)
+
 
 
 app.listen(process.env.PORT, () => {
