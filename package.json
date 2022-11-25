@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "init": "^0.1.2",
+    "mongodb": "^4.12.1",
+    "mongoose": "^6.7.3",
+    "nodemon": "^2.0.20"
+  },
+  "name": "time-managment-mvc",
+  "description": "simple way to help understand how you spend your days to help optimize them. Build following MVC paradigm",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TFuray/time-managment-mvc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TFuray/time-managment-mvc/issues"
+  },
+  "homepage": "https://github.com/TFuray/time-managment-mvc#readme"
+}
