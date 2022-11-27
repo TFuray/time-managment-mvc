@@ -3,6 +3,7 @@ const app = express()
 const homeRoutes = require('./routes/home')
 const eventRoutes = require('./routes/events')
 const connectDb = require('./config/database')
+const helper = require('./helpers/helper')
 
 require('dotenv').config({ path: './config/.env' })
 

@@ -7,4 +7,5 @@ router.get('/', eventsController.getEvents)
 router.post('/createEvent', eventsController.createEvent)
 
 
+
 module.exports = router
