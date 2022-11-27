@@ -6,10 +6,10 @@ const EventSchema = new mongoose.Schema({
         required: true,
     },
     startTime: {
-        type: Date,
+        type: String,
         required: true,
     },
-    endTime: Date,
+    endTime: String,
 })
 
 module.exports = mongoose.model('Event', EventSchema)

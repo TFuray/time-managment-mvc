@@ -13,15 +13,42 @@
 </head>
 
 <body>
+
   <div class="container">
     <div class="row">
-      div.
+      <div class="card blue-grey darken-1">
+        <div class="card-content white-text">
+          <span class="card-title"><h3>Today</h3></span>
+        </div>
+      </div>
+
+      <div class="card light-green darken-4">
+        <div class="card-content white-text">
+          <span class="card-title"><h3>Add Activity</h3></span>
+          <form action="/events/createEvent" method="POST">
+            <div class="input-field">
+              <input class="white-text" type="text" id="eventItem" name="eventItem">
+              <label for="eventItem">Name of Activity</label>
+            </div>
+            <div class="input-field">
+              <input class="white-text" type="text" name="startTime" id="startTime">
+              <label for="startTime">Start Time</label>
+            </div>
+            <div class="input-field white-text">
+                <button class="btn waves-effect waves-light orange darken-4" type="submit" name="action">Submit
+                  <i class="material-icons right">send</i>
+                </button>
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
   </div>
 
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+  <script src="js/main.js"></script>
 </body>
 
 </html>
