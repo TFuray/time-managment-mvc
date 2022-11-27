@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 const homeRoutes = require('./routes/home')
-const eventRoutes = require('./routes/events')
+const expenseRoutes = require('./routes/expenses')
 const connectDb = require('./config/database')
 const helper = require('./helpers/helper')
 
@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
 
 app.use('/', homeRoutes)
-app.use('/events', eventRoutes)
+app.use('/expenses', expenseRoutes)
 
 
 
