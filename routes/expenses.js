@@ -4,7 +4,7 @@ const ExpenseController = require('../controllers/expenses')
 
 router.get('/', ExpenseController.getExpenses)
 
-router.post('/createEvent', ExpenseController.createExpense)
+router.post('/createExpense', ExpenseController.createExpense)
 
 
 

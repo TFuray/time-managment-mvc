@@ -14,6 +14,7 @@ module.exports = {
         try {
             await Expense.create({
                 expense: req.body.expenseItem,
+                value: req.body.value
             })
             console.log('expense has been added.')
             res.redirect('/expenses')
